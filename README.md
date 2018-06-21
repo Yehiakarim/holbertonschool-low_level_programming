@@ -1,1 +1,2 @@
-# holbertonschool-low_level_programming
+#!/bin/bash
+# hssssolbertonschool-low_level_programming NEW PROJICT
