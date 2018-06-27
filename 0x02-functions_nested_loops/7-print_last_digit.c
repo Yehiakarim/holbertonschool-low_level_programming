@@ -4,19 +4,23 @@
  *@n: prints the last digit of a number
  * Return: 0
  */
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	if (n > 0)
+	int x;
+
+	if (r > 0)
 	{
-		return ((n + 0) % 10);
+		x = r % 10;
+		_putchar(x + '0');
 	}
-	else if (n < 0)
+	else if (r < 0)
 	{
-		return ((n + 0) * -1 % 10);
+		x = (r % 10) * -1;
+		_putchar(x + '0');
 	}
 	else
 	{
-		return (0);
+		_putchar('0');
 	}
-	return (0);
+	return (x);
 }
