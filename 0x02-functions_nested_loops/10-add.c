@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print - add adds two integers and returns the result
+* add - prints _add two integers and returns the result
 *@n: adds two integers and returns the result
 *@a: adds two integers and returns the result
 * Return: 0
