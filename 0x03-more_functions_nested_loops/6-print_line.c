@@ -1,5 +1,9 @@
 #include "holberton.h"
-
+/**
+ *print_line - description
+ *@n: nona
+ * Return: 0
+ */
 void print_line(int n)
 {
 	int x = 1;
