@@ -1,5 +1,9 @@
 #include "holberton.h"
-
+/**
+ * _puts - description
+ * @str: string
+ * Return: 0
+ */
 void _puts(char *str)
 
 {
