@@ -1,9 +1,9 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "holberton.h"
 
-int
-main(void)
+int main(void)
 {
 
 	unsigned short int length = 14;
@@ -16,5 +16,5 @@ main(void)
 		srand(rand());
 	}
 
-	printf("\n");
+	putchar('\n');
 }
