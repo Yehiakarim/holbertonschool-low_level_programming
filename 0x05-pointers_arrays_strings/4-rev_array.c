@@ -1,5 +1,9 @@
 #include "holberton.h"
-
+/**
+ * reverse_array - description
+ * @n: description
+ * Return: 0
+ */
 void reverse_array(int *a, int n)
 {
 
@@ -19,6 +23,6 @@ void reverse_array(int *a, int n)
 	{
 		temp = a[i];
 		a[i] = a[c];
-		a[c] = temp;
+e 		a[c] = temp;
 	}
 }
