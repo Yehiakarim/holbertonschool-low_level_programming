@@ -1,9 +1,10 @@
 #include "holberton.h"
+
 /**
- **_memset - description
- *@s: description
- *@b: description
- *@n: descripton
+ * *_memset - description
+ * @s: description
+ * @b: description
+ * @n: descripton
  * Return: s
  */
 
