@@ -1,2 +1,3 @@
 #!/bin/bash
-ar -rcs .. *c
+gcc -c *.c
+ar rc libholberton.a *.o
