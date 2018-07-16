@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - main 
+ * main - main
  * @argc: argument number
  * @argv: argument
  * Return: 0
@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 	{
 		star = strlen(argv[i]);
 
-		for (x = 0; j < arglen; x++)
+		for (x = 0; x < star; x++)
 		{
 			if (argv[i][x] < '0' || argv[i][x] > '9')
 			{
